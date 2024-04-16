@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* selettore per il logo */
+#header {
+    height: 70px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+/* selettore per gli elementi comuni dei contenitori */
+.container {
+    background-color: white;
+}
+
+body {
+    background-color: rgba(246, 248, 249, 255);
+}
