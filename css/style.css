@@ -68,8 +68,9 @@ li {
     font-weight: bold;
 }
 
-/* selettore per lo span delle icone dei task */
-.icon {
+/* lista di pseudoselettori per creare gli elementi dei task */
+.textCheck::before {
+    content: "✓";
     color: #39cab0;
     line-height: 0.9375rem;
     text-align: center;
@@ -79,49 +80,85 @@ li {
     width: 0.9375rem;
     height: 0.9375rem;
     border-radius: 50%;
+    margin-right: 10px;
 }
 
-/* selettore specifoco per lo span per icona con croce */
-.crossIcon {
+.textCross::before {
+    content: "✗";
     color: #ff1010;
+    line-height: 0.9375rem;
+    text-align: center;
+    font-size: 0.625rem;
     border: 1px solid #ff1010;
+    display: inline-block;
+    width: 0.9375rem;
+    height: 0.9375rem;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
-/* selettore per lo span del testo dei task */
-.text {
-    margin-left: 6px;
-}
-
-/* selettore generico per lo span del tag dei task */
-.tag {
+.textEditorial::after {
+    content: "Editorial";
     display: inline-block;
     font-size: 8px;
     color: white;
+    margin-left: 5px;
+    background-color: #09a9ed;
     padding: 5px 8px;
     border-radius: 10px;
 }
 
-/* selettore specifici per i tipi di tag */
-.editorialTag {
-    background-color: #09a9ed;
-}
-
-.goalsTag {
+.textGoals::after {
+    content: "Q1 Goals";
+    display: inline-block;
+    font-size: 8px;
+    color: white;
+    margin-left: 5px;
     background-color: #ab5de6;
+    padding: 5px 8px;
+    border-radius: 10px;
 }
 
-.recruitingTag {
+.textRecruiting::after {
+    content: "Recruiting";
+    display: inline-block;
+    font-size: 8px;
+    color: white;
+    margin-left: 5px;
     background-color: #2cc6ab;
+    padding: 5px 8px;
+    border-radius: 10px;
 }
 
-.mobileTag {
+.textMobile::after {
+    content: "Mobile";
+    display: inline-block;
+    font-size: 8px;
+    color: white;
+    margin-left: 5px;
     background-color: #ff9b00;
+    padding: 5px 8px;
+    border-radius: 10px;
 }
 
-.websiteTag {
+.textWebsite::after {
+    content: "Website";
+    display: inline-block;
+    font-size: 8px;
+    color: white;
+    margin-left: 5px;
     background-color: #ec4a9d;
+    padding: 5px 8px;
+    border-radius: 10px;
 }
 
-.salesTag {
+.textSales::after {
+    content: "Sales";
+    display: inline-block;
+    font-size: 8px;
+    color: white;
+    margin-left: 5px;
     background-color: #a3d116;
+    padding: 5px 8px;
+    border-radius: 10px;
 }
