@@ -26,7 +26,6 @@ header div {
 .container {
     background-color: white;
     font-family: Arial, sans-serif;
-    font-weight: bold;
     padding-left: 50px;
 }
 
@@ -52,4 +51,74 @@ header div {
 
 .taskButton {
     background-color: #14aaf5;
+}
+
+/* selettore per le categorie dei task */
+.taskType {
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+/* selettore le liste dei task */
+.taskList {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+/* selettore per lo span delle icone dei task */
+.icon {
+    color: #39cab0;
+    line-height: 0.9375rem;
+    text-align: center;
+    font-size: 0.625rem;
+    border: 1px solid #39cab0;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+/* selettore specifoco per lo span per icona con croce */
+.crossIcon {
+    color: #ff1010;
+    border: 1px solid #ff1010;
+}
+
+/* selettore per lo span del testo dei task */
+.text {
+    margin-left: 6px;
+}
+
+/* selettore generico per lo span del tag dei task */
+.tag {
+    display: inline-block;
+    font-size: 8px;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+
+/* selettore specifici per i tipi di tag */
+.editorialTag {
+    background-color: #09a9ed;
+}
+
+.goalsTag {
+    background-color: #ab5de6;
+}
+
+.recruitingTag {
+    background-color: #2cc6ab;
+}
+
+.mobileTag {
+    background-color: #ff9b00;
+}
+
+.websiteTag {
+    background-color: #ec4a9d;
+}
+
+.SalesTag {
+    background-color: #a3d116;
 }
