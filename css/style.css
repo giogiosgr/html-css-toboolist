@@ -8,14 +8,48 @@ body {
     background-color: #f6f8f9;
 }
 
-/* selettore per il logo */
-header {
+/* selettore per il div del logo */
+header div {
     height: 4.375rem;
+    padding-top: 10px;
+    padding-left: 25px;
+    background-color: white;
+}
+
+/* selettore per il contenuto nel main */
+.content {
+    margin: 2.5rem auto;
+    max-width: 60%;
 }
 
 /* selettore per gli elementi comuni dei contenitori */
 .container {
-    padding-top: 10px;
-    padding-left: 25px;
     background-color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+/* selettore specifico per il contenitore con i due bottoni */
+.buttonsContainer {
+    border-bottom: 2.5px solid #f6f8f9;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 10px;
+    height: 3.125rem;
+}
+
+/* selettori per i due bottoni */
+.button {
+    border-radius: 6px;
+    border: 1px solid grey;
+    background-color: white;
+    height: 1.875rem;
+    line-height: 0;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.taskButton {
+    background-color: #14aaf5;
 }
