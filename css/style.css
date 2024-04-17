@@ -53,16 +53,19 @@ header div {
     background-color: #14aaf5;
 }
 
+/* selettori per le liste */
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 15px;
+}
+
 /* selettore per le categorie dei task */
 .taskType {
     padding-top: 30px;
     font-weight: bold;
-}
-
-/* selettore le liste dei task */
-.taskList {
-    list-style-type: none;
-    margin-top: 15px;
 }
 
 /* selettore per lo span delle icone dei task */
@@ -73,8 +76,8 @@ header div {
     font-size: 0.625rem;
     border: 1px solid #39cab0;
     display: inline-block;
-    width: 15px;
-    height: 15px;
+    width: 0.9375rem;
+    height: 0.9375rem;
     border-radius: 50%;
 }
 
@@ -119,6 +122,6 @@ header div {
     background-color: #ec4a9d;
 }
 
-.SalesTag {
+.salesTag {
     background-color: #a3d116;
 }

@@ -9,20 +9,23 @@
 </head>
 
 <body>
-    <!-- instestazione con logo-->
+    <!-- instestazione con logo -->
     <header>
         <div id="logo" class="container">
-            <img src="img/Toboolist-logo.jpg" alt="Logo"></img>
+            <img src="img/Toboolist-logo.jpg" alt="Logo">
         </div>
     </header>
     <main>
+        <!-- div con tutto il contenuto relativo ai task -->
         <div class="content">
+            <!-- div contenitore dei bottoni -->
             <div class="container buttonsContainer">
                 <button id="add-task" class="button taskButton">Add Task</button>
                 <button id="add-section" class="button">Add Section</button>
             </div>
-
+            <!-- div contenitore dei task -->
             <div class="container taskContainer">
+                <!-- prima lista -->
                 <h3 class="taskType">&#9662; New Task</h3>
                 <ul class="taskList">
                     <li>
@@ -30,11 +33,57 @@
                         <span class="text">Quarterly Newsletter</span>
                         <span class="tag editorialTag">Editorial</span>
                     </li>
+                </ul>
+                <!-- seconda lista -->
+                <h3 class="taskType">&#9662; Today</h3>
+                <ul class="taskList">
+                    <li>
+                        <span class="icon">&check;</span>
+                        <span class="text">Recruiting blog post</span>
+                        <span class="tag editorialTag">Editorial</span>
+                    </li>
+                    <li>
+                        <span class="icon">&check;</span>
+                        <span class="text">Mobile app launch</span>
+                        <span class="tag goalsTag">Q1 Goals</span>
+                    </li>
+                    <li>
+                        <span class="icon crossIcon">&cross;</span>
+                        <span class="text">Interview John H.</span>
+                        <span class="tag recruitingTag">Recruiting</span>
+                    </li>
+                    <li>
+                        <span class="icon">&check;</span>
+                        <span class="text">Summit update to mobile storefronts</span>
+                        <span class="tag mobileTag">Mobile</span>
+                    </li>
+                </ul>
+                <!-- terza lista -->
+                <h3 class="taskType">&#9662; Upcoming</h3>
+                <ul class="taskList">
+                    <li>
+                        <span class="icon crossIcon">&cross;</span>
+                        <span class="text">Schedule meeting with Alex</span>
+                    </li>
+                    <li>
+                        <span class="icon">&check;</span>
+                        <span class="text">Homepage refresh</span>
+                        <span class="tag websiteTag">Website</span>
+                    </li>
+                    <li>
+                        <span class="icon">&check;</span>
+                        <span class="text">Onboard new Sales team members</span>
+                        <span class="tag salesTag">Sales</span>
+                    </li>
+                    <li>
+                        <span class="icon">&check;</span>
+                        <span class="text">Review editorial calendar</span>
+                        <span class="tag editorialTag">Editorial</span>
+                    </li>
+                </ul>
             </div>
-
         </div>
     </main>
-
 </body>
 
 </html>
