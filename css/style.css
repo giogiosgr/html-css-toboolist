@@ -4,18 +4,18 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #f6f8f9;
+}
+
 /* selettore per il logo */
-#header {
-    height: 70px;
-    padding-top: 10px;
-    padding-left: 25px;
+header {
+    height: 4.375rem;
 }
 
 /* selettore per gli elementi comuni dei contenitori */
 .container {
+    padding-top: 10px;
+    padding-left: 25px;
     background-color: white;
-}
-
-body {
-    background-color: rgba(246, 248, 249, 255);
 }
