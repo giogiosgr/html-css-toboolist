@@ -38,6 +38,11 @@ header div {
     height: 3.125rem;
 }
 
+/* selettore specifico per il contenitore con i task */
+.taskContainer {
+    padding-bottom: 2.5rem;
+}
+
 /* selettori per i due bottoni */
 .button {
     border-radius: 6px;
