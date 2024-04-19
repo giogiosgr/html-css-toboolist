@@ -73,7 +73,7 @@ li {
     font-weight: bold;
 }
 
-/* lista di pseudoselettori per creare gli pseudoelementi dei task */
+/* lista di pseudoselettori per gli pseudoelementi dei task */
 .Sign::before {
     line-height: 0.9375rem;
     text-align: center;
