@@ -73,97 +73,65 @@ li {
     font-weight: bold;
 }
 
-/* lista di pseudoselettori per creare gli elementi dei task */
-.textCheck::before {
+/* lista di pseudoselettori per creare gli pseudoelementi dei task */
+.Sign::before {
+    line-height: 0.9375rem;
+    text-align: center;
+    font-size: 0.625rem;
+    display: inline-block;
+    width: 0.9375rem;
+    height: 0.9375rem;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.Sign.Check::before {
     content: "✓";
     color: #39cab0;
-    line-height: 0.9375rem;
-    text-align: center;
-    font-size: 0.625rem;
     border: 1px solid #39cab0;
-    display: inline-block;
-    width: 0.9375rem;
-    height: 0.9375rem;
-    border-radius: 50%;
-    margin-right: 10px;
 }
 
-.textCross::before {
+.Sign.Cross::before {
     content: "✗";
     color: #ff1010;
-    line-height: 0.9375rem;
-    text-align: center;
-    font-size: 0.625rem;
     border: 1px solid #ff1010;
-    display: inline-block;
-    width: 0.9375rem;
-    height: 0.9375rem;
-    border-radius: 50%;
-    margin-right: 10px;
 }
 
-.textEditorial::after {
+.Tag::after {
+    display: inline-block;
+    font-size: 8px;
+    color: white;
+    margin-left: 5px;
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+
+.Tag.Editorial::after {
     content: "Editorial";
-    display: inline-block;
-    font-size: 8px;
-    color: white;
-    margin-left: 5px;
     background-color: #09a9ed;
-    padding: 5px 8px;
-    border-radius: 10px;
 }
 
-.textGoals::after {
+.Tag.Goals::after {
     content: "Q1 Goals";
-    display: inline-block;
-    font-size: 8px;
-    color: white;
-    margin-left: 5px;
     background-color: #ab5de6;
-    padding: 5px 8px;
-    border-radius: 10px;
 }
 
-.textRecruiting::after {
+.Tag.Recruiting::after {
     content: "Recruiting";
-    display: inline-block;
-    font-size: 8px;
-    color: white;
-    margin-left: 5px;
     background-color: #2cc6ab;
-    padding: 5px 8px;
-    border-radius: 10px;
 }
 
-.textMobile::after {
+.Tag.Mobile::after {
     content: "Mobile";
-    display: inline-block;
-    font-size: 8px;
-    color: white;
-    margin-left: 5px;
     background-color: #ff9b00;
-    padding: 5px 8px;
-    border-radius: 10px;
 }
 
-.textWebsite::after {
+.Tag.Website::after {
     content: "Website";
-    display: inline-block;
-    font-size: 8px;
-    color: white;
-    margin-left: 5px;
     background-color: #ec4a9d;
-    padding: 5px 8px;
-    border-radius: 10px;
 }
 
-.textSales::after {
+.Tag.Sales::after {
     content: "Sales";
-    display: inline-block;
-    font-size: 8px;
-    color: white;
-    margin-left: 5px;
     background-color: #a3d116;
-    padding: 5px 8px;
-    border-radius: 10px;
 }
