@@ -75,7 +75,7 @@ li {
 
 /* lista di pseudoselettori per creare gli elementi dei task */
 .textCheck::before {
-    content: "✓";
+    content: "\2713";
     color: #39cab0;
     line-height: 0.9375rem;
     text-align: center;
@@ -89,7 +89,7 @@ li {
 }
 
 .textCross::before {
-    content: "✗";
+    content: "\2715";
     color: #ff1010;
     line-height: 0.9375rem;
     text-align: center;
